@@ -5,7 +5,7 @@
 This project explores the implementation of a **Mixture of Experts (MoE)** architecture using small, efficient Large Language Models (LLMs) to address complex cybersecurity challenges. The primary goal is to move beyond monolithic AI systems and evaluate how a distributed system of specialized AI agents can generate high-quality, actionable, and context-aware security requirements.
 
 The core of this research is not just to build a functional MoE system, but to establish a framework for **evaluating the quality and performance of different LLMs** when tasked with specialized roles within this architecture. We aim to answer critical questions such as:
-*   How effectively can a small LLM (e.g., ~0.5B parameters) function as an intelligent "router," correctly dispatching tasks to the appropriate expert?
+*   How effectively can a small LLM (e.g., ~0.5-8B parameters) function as an intelligent "router," correctly dispatching tasks to the appropriate expert?
 *   How does a model's performance change when its scope is narrowed by a highly specific system prompt (i.e., acting as a domain expert)?
 *   What are the failure modes of small models in this architecture, and how can we build a robust system around them?
 
